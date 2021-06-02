@@ -181,8 +181,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                 child: Text(
                                   " Sign up",
                                   style: TextStyle(
-                                      color: Color(0xff53B175),
-                                      fontFamily: "RobotoBold"),
+                                    color: Color(0xff53B175),
+                                    fontFamily: "RobotoBold",
+                                  ),
                                 ),
                               )
                             ],
