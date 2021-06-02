@@ -1,4 +1,4 @@
-import 'package:chomka/splash_screen.dart';
+import 'package:chomka/screen/location_screen/location_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: LocationScreen(),
     );
   }
 }
